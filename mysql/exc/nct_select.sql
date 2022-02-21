@@ -177,7 +177,7 @@ infrmember a
 		,(select ifcdName from infrCode where ifcdSeq = a.ifauRoleCd) as ifauRoleName
  from infrAuthmenu a 
  where 1 =1
- and a.ifatSeq = 3;
+ and a.ifatSeq =2;
  
  
  select * from infrauthmenu;
